@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #1f2345, #28545b);
+    color: #1f2345;
+}
+
+nav {
+    background-color: White;
+    color: #1f2345;
+    padding: 10px;
+    width: 200px;
+    margin: 80px auto 80px auto;
+    text-align: center;
+    border-radius:5px;
+}
+
+main {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom:42px;
+    margin-left: auto;
+    width: 900px;
+}
+
+article#primeiro {
+    background-color: white;
+    color: #1f2345;
+    padding: 40px;
+    border-radius:10px;
+
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom:42px;
+    margin-left: auto;
+
+    box-shadow: 5px 8px 16px 0px #00000084;
+}
+
+article#segundo {
+    background-color: white;
+    color: #1f2345;
+    padding: 40px;
+    border-radius:10px;
+
+    box-shadow: 5px 8px 16px 0px #00000084;
+}
+
+h2 {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p#autora {
+    
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+    color: #1f2345;
+    padding: 40px;
+}
+
+
+footer {
+    color: White;
+    text-align: center;
+    margin: 100px auto 100px auto;
+}
